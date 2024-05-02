@@ -1,4 +1,5 @@
 //テーブル名やカラム名をJpaConstクラスの定数で定義
+//persistennce.xmlの管理に必ず追加する
 package models;
 
 import java.time.LocalDateTime;
