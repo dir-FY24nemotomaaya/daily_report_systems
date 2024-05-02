@@ -110,3 +110,6 @@ tr.row0 {
         background-color: #ffffff;
 }
     
+select { /*セレクトボックス（form.jsp32行目以降）の表示設定*/
+    height: 30px;
+}
