@@ -19,11 +19,7 @@ public class ReportValidator {
     public static List<String> validate(ReportView rv) {
         List<String> errors = new ArrayList<String>();
 
-        //点数のチェック
-        String scoreError = validateScore(rv.getScore());
-        if (!scoreError.equals("")) {
-            errors.add(scoreError);
-        }
+      
         
         //タイトルのチェック
         String titleError = validateTitle(rv.getTitle());
@@ -40,11 +36,7 @@ public class ReportValidator {
         return errors;
     }
 
-    private static String validateScore(String score) {
-		// TODO 自動生成されたメソッド・スタブ
-		return null;
-	}
-
+    
 	/**
      * タイトルに入力値があるかをチェックし、入力値がなければエラーメッセージを返却
      * @param title タイトル
