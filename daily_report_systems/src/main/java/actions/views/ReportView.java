@@ -36,7 +36,7 @@ public class ReportView {
     /**
      * テストの点数(追加)
      */
-    private int score;
+    private String score;
 
     /**
      * 日報のタイトル

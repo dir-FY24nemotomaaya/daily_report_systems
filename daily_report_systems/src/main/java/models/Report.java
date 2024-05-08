@@ -73,7 +73,7 @@ public class Report {
      * テストの点数(追加)
      */
     @Column(name = JpaConst.REP_COL_SCORE, nullable = false)
-    private int score;
+    private String score;
 
     /**
      * 日報のタイトル
