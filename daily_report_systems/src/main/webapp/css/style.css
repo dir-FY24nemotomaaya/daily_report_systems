@@ -133,3 +133,28 @@ select { /*セレクトボックス（form.jsp32行目以降）の表示設定*/
 h1 a {
     color: #eeeeee;
 }
+
+table#report_list th {
+    font-weight: bold;
+    padding: 10px 2%;
+}
+
+table#report_list .report_name {
+    width: 20%;
+    padding: 10px 2%;
+}
+table#report_list .report_date {
+    width: 20%;
+}
+
+table#report_score .report_score {
+	width: 10%;
+}
+
+table#report_list .report_title {
+    width: 30%;
+}
+
+table#report_list .report_action {
+    width: 10%;
+}
